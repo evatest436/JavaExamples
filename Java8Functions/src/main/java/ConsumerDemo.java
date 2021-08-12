@@ -24,6 +24,8 @@ public class ConsumerDemo {
 
         modify.andThen(display).accept(list);
 
+
+
         // 3 : andThen and Exception
         Consumer<Integer> square = n -> n = n / 0;
         try {
