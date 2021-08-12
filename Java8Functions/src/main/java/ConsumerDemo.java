@@ -54,4 +54,6 @@ class ConsumerInterface{
         list.stream().forEach(i -> System.out.println(i));
     }
 
+
+
 }
